@@ -65,10 +65,10 @@ img{
   border-radius: 4px;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 100px;
   }
 }
 
@@ -79,9 +79,9 @@ img{
   }
 }
 
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 700px;
   }
 }
