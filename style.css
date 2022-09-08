@@ -3,7 +3,9 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color:#696D7D;
   font-size:medium;
-  line-height:normal
+  line-height:normal;
+  display: flex;
+  justify-content: center;
 }
 
 #small-note{
@@ -41,12 +43,17 @@ img{
   box-shadow: 2px 2px 3px #EDADC7;
 }
 
+.container{
+  margin: 20px auto;
+  width: 700px;
+}
+
 .centered-box{
   background: #FAF3DD;
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
-  width: 500px;
+  max-width: 500px;
   margin: 50px auto;
   text-align: center;
 }
@@ -65,10 +72,10 @@ img{
   border-radius: 4px;
 }
 
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 100px;
+    width: 700px;
   }
 }
 
@@ -79,9 +86,9 @@ img{
   }
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 300px;
   }
 }
