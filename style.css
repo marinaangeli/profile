@@ -1,3 +1,8 @@
+.card-color{
+  background: #FAF3DD;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
 body {
   background-color:white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -6,9 +11,10 @@ body {
   line-height:normal
 }
 
-#small-note{
-  font-size: small;
-  font-style: italic;
+img{
+  width: 25%;
+  border-radius: 25%;
+  box-shadow: 2px 2px 3px #EDADC7;
 }
 
 h1{
@@ -22,36 +28,7 @@ h2{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size:24px;
   line-height: normal;
-}
-
-a{
-  color:#04728C;
-  text-decoration: none;
-}
-
-a:hover{
-  color:#696D7D;
-  text-decoration: underline;
-}
-
-img{
-  width: 150px;
-  border-radius: 25%;
-  box-shadow: 2px 2px 3px #EDADC7;
-}
-
-.centered-box{
-  background: #FAF3DD;
-  padding: 30px;                             /* Internal space */
-  border-radius: 4px;                        /* Small radius */
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
-  width: 500px;
-  margin: 50px auto;
-  text-align: center;
-}
-
-#social-media-icon{
-  font-size: 30px;
+  font-weight: bolder;
 }
 
 .bttn-coral{
@@ -64,23 +41,16 @@ img{
   border-radius: 4px;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
+a{
+  color:#04728C;
+  text-decoration: none;
 }
 
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
+a:hover{
+  color:#696D7D;
+  text-decoration: underline;
 }
 
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
+#social-media-icon{
+  font-size: 30px;
 }
